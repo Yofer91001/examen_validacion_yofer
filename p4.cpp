@@ -13,6 +13,10 @@ int main(){
   //Ejecutar la función
   fibonacci(n);
 
+  //Prueba con 8
+  fibonacci(8);
+
+
   return 0;
 }
 
@@ -43,4 +47,5 @@ void fibonacci(int n){
       }
     }
   }
+  cout<<endl;
 }

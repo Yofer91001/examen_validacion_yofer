@@ -15,7 +15,7 @@ class Auto:
 
 
     def __str__(self):
-        return(f"Marca: {self.marca}\nModelo: {self.model}\nFecha: {self.fecha}\nkmtraje: {self.leer_km()}")
+        return(f"Marca:\t{self.marca}\nModelo:\t{self.model}\nFecha:\t{self.fecha}\nkmtraje:{self.leer_km()}")
 
 
 class ElectricCar(Auto):
@@ -31,7 +31,7 @@ class ElectricCar(Auto):
      
      
     def __str__(self):
-        return(f"Marca: {self.marca}\nModelo: {self.model}\nFecha: {self.fecha}\nkmtraje: {self.leer_km()}\nCarga: {self.carga}\n\n")
+        return(f"Marca:\t{self.marca}\nModelo:\t{self.model}\nFecha:\t{self.fecha}\nkmtraje:{self.leer_km()}\nCarga:\t{self.carga}\n\n")
 
 
 class Tesla:
@@ -48,7 +48,7 @@ class Tesla:
         cadena = ""
         #Iterar en cada elemento(ElectricCar) almacenado en la lista
         for x in self.linea:
-            cadena += f"Marca: {x.marca}\nModelo: {x.model}\nFecha: {x.fecha}\nkmtraje: {x.leer_km()}\nCarga: {x.carga}\n\n"
+            cadena += f"Marca:\t{x.marca}\nModelo:\t{x.model}\nFecha:\t{x.fecha}\nkmtraje:{x.leer_km()}\nCarga:\t{x.carga}\n\n"
         
         return cadena
 

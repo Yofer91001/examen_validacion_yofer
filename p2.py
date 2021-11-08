@@ -18,7 +18,7 @@ def rev_pair(word, array):
     
     #Iterar sobre los elementos del arreglo recibido
     for p in array:
-        #Comparar si un elemento del array es igual a la versió invertida de la palabra
+        #Comparar si un elemento del array es igual a la versión invertida de la palabra
         if(str(p) == invertido):
             return True
     
